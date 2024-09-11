@@ -8,11 +8,23 @@
     <style>
         /* codigo css */
         h1,p{/*regra de estilo utilizado seletor por elemento*/
-            color: #black
-
+            color: #black;
+            border: 1px solid black;
+            border-radius: 10% 20% 30% 50%;
         }
         #post1{/*seletor por id*/
-            background-color: blanchedalmond;
+            background-color: blanchedalmond (218, 230, 240);
+        }
+        table,td,th{
+          
+            border: 1px solid black;
+            border-collapse: collapse;
+           border-radius: 10% 20% 30% 50%;
+        }
+        #paodealho:hover{
+            background-color:lightblue;
+            font-size: 30pt;
+           
         }
     </style>
 
@@ -42,6 +54,7 @@
                     <li>Irwyng</li>
                     <li>edson</li>
                     <li> manu</li>
+               
                     <li>ana</li>
                     <li> hudson</li>
                 </ul>
@@ -52,6 +65,34 @@
                     <li>ana</li>
                     <li> hudson</li>
                 </ol>
+
+                <table>
+                    <tr>
+                        <th rowspan="5">churrasco</th>
+                        <th>Item </th>
+                        <th>unidade</th>
+                        <th>valor</th>
+                    </tr>
+                    <tr>
+                        <td>carne </td>
+                        <td>2kg </td>
+                        <td>36,00 </td>
+                    </tr>
+                    <tr>
+                        <td id="paodealho">pão de alho </td>
+                        <td>2 pacotes </td>
+                        <td>15,90 </td>
+                    </tr>
+                    <tr>
+                        <td>linguiça </td>
+                        <td>1kg </td>
+                        <td>20,00 </td>
+                    </tr>
+                   <tr>
+                    <td colspan="2" >total</td>
+                    <td >122,00</td>
+                   </tr>
+                </table>
 
             </div>
 </body>
